@@ -25,7 +25,7 @@ console.log(a);
 
 Explain your answer below : 
 ```
-You answer here!
+The global variable `a` is equal to one and the value is updated in the function `b`. the function `b` is called before logging the value of the variable `a` so the value of `a` when logged is the updated value from the function `b`
 ```
 
 ## Try Catch 
@@ -59,7 +59,7 @@ console.log('Glad to be done!');
 ```
 Explain your answer below : 
 ```
-You answer here!
+The inner try block executes first. So "starting the process" is logged then a message is thrown to the inner cath. The "ending the process" message is not logged because it comes after the throw. The inner catch logs the message and throws to the outer catch. The finally message is logged before the outer catch message. The outer catch message is logged then the outer finally. Lastly, the console log outside the outer try catch is logged. 
 ```
 
 ## Switch Statement + Review
